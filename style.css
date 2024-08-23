@@ -9,7 +9,7 @@
 body{
         margin: 0;
         padding: 0;
-        background-image: url(./imagens/wallpaperJS.png);
+        background-image: url(CSS/imagens/wallpaperJS.png);
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
