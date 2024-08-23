@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Frete</title>
+    <link rel="stylesheet" href="css/frete.css">
+</head>
+
+<a href="index.html"><img src="CSS/imagens/iconVoltar.png" alt=""></a>
+
+
+<body>
+
+    
+    <div class="trapezio">
+        <div class="fitaM"></div>
+        </div>
+    <div class="caixa">
+        <div class="fita"></div>
+        <div class="etiqueta">
+            <h1 id="titulo">Calculadora de Frete</h1>
+            <h2 id="sub-titulo">Informe o peso e a região</h2>
+            <input type="number" id="peso" placeholder="Peso do Produto">
+            <select name="regioes" id="regiao" >
+                <option value=""></option>
+                <option value="sudeste">Sudeste</option>
+                <option value="sul">Sul</option>
+                <option value="norte">Norte</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="centro-oeste">Centro-Oeste</option>
+            </select>
+
+            <!--talvez ponhamos um <p> com textcontent-->
+
+            <button onclick="frete()" id="btn-frete">Enviar</button>
+        </div>
+        <div class="fita"></div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="JS/javascript.js"></script>

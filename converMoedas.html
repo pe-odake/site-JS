@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="CSS/moedas.css">
+</head>
+
+<body>
+
+    <a href="index.html"><img src="CSS/imagens/iconVoltarB.png" alt=""></a>
+
+    <div class="tudo">
+        <div class="caixa"><img src="CSS/imagens/caixaEletronico.png" alt="" id="caixaEle">
+        <div class="conversor">
+            <div class="title"><h1>Conversor de Moedas</h1></div>
+            <input type="number" id="valor" placeholder="Valor em BRL para conversão">
+            <select name="feedback" id="select">
+                <option value="">selecione a moeda que deseja converter</option>
+                <option value="USD"><img src="CSS/imagens/bandeiraEUA.png" alt="">Dolar</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Libra esterlina</option>
+            </select>
+
+                <p id="resultado"></p>
+                <button onclick="ConverterMoeda()" id="btn-moeda">Enviar</button></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="JS/javascript.js"></script>

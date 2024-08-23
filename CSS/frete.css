@@ -1,0 +1,90 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.etiqueta{
+    background-color: #91603F;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 266px;
+    width: 372px;
+    border-radius: 25px;
+}
+.caixa{
+    background-color: #BB9D7B;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fita{
+    background-color: #91603F;
+    height: 117px;
+    width: 90px;
+}
+.fitaM{
+    background-color: #B9977C;
+    height: 50px;
+    width: 90px;
+}
+#titulo, #sub-titulo{
+    background-color: transparent;
+}
+#peso{
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+#regiao{
+    height: 20px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+#btn-frete{
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer
+}
+#btn-frete:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.trapezio{
+	border-bottom: 50px solid #EDD9BC;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	height: 0;
+	width: 650px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 924px;
+}

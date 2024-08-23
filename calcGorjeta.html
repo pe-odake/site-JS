@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="CSS/gorjeta.css">
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gorjeta</title>
+</head>
+<a href="index.html" ><img src="CSS/imagens/iconVoltarB.png" alt="" id="voltarbtn"></a>
+<body>
+
+    
+    
+
+    <div class="quadrado">
+        <form action="">
+
+            <img src="CSS/imagens/mesa.png" id="mesa">
+            <img src="CSS/imagens/mao.png" alt="" id="mao">
+            <img src="CSS/imagens/gorjeta.png" alt="" id="pote">
+            <h1 id="letras">Que tal uma gorjeta?</h1>
+            <input type="number" id="preco" placeholder="Valor da Refeição">
+            <select name="feedback" id="select">
+                <option value="">nivel da gorjeta</option>
+                <option value="Bom">Bom</option>
+                <option value="Otimo">Ótimo</option>
+                <option value="Excelente">Excelente</option>
+            </select>
+            <button onclick="CalcGorjeta()" id="btn-gorjeta">Enviar</button>
+        </form>
+        <p id="resultado"></p>
+
+
+    </div>
+</body>
+
+</html>
+
+<script src="JS/javascript.js"></script>

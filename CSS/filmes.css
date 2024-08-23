@@ -1,0 +1,115 @@
+body{
+
+background-color: #863C1D;
+overflow: hidden;
+
+
+}
+#voltarbtn{
+    position: absolute;
+    width: 4%;
+    left: 2%;
+    bottom: -20%;
+}
+.quadrado{
+
+
+height: 700px;
+width: 700px;
+background-color: #FFC785;
+position: relative;
+left:590px;
+top: -2%;
+border-radius: 40px;
+z-index: 0;
+}
+
+#idade{
+
+background-color: #D9D9D9;
+border-radius: 20px;
+height: 80px;
+width: 585px;
+position: relative;
+left: 60px;
+top: 140px;
+z-index: 1;
+}
+
+h1{
+
+
+position: relative;
+left: 100px;
+top: 150px;
+z-index: 2;
+font-size: 70px;
+}
+
+input{
+
+
+font-size:50px;
+
+}
+
+#botao{
+
+height: 50px;
+width: 200px;
+position: relative;
+z-index: 4;
+left: 240px;
+top: 270px;
+background-color: brown;
+border-radius: 20px;
+font-size: 40px;
+
+}
+
+#recomendacao{
+
+position: absolute;
+top: 350px;
+left: 130px;
+font-size: 50px;
+}
+
+#camera{
+
+width: 300px;
+height: 300px;
+position: relative;
+left: 390px;
+top: -13%;
+z-index: 8;
+
+}
+
+#fita{
+
+position: relative;
+width: 720px;
+height: 300px;
+z-index: 5;
+top: -670px;
+left: 270px;
+}
+
+#pipoca{
+
+z-index: 7;
+position: relative;
+rotate: 20deg;
+height: 250px;
+width: 250px;
+top: -93%;
+left: 850px;
+
+}
+
+#iconVoltar{
+    height: 70px;
+    width: 70px;
+
+}

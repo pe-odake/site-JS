@@ -1,0 +1,117 @@
+* {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+
+    overflow: hidden;
+    background-image: url(imagens/restaurante2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#voltarbtn{
+    position: absolute;
+    width: 3%;
+    left: 2%;
+    top: 2%;
+    z-index: 11;
+}
+.quadrado {
+    margin-top: 5%;
+    width: 600px;
+    height: 800px;
+    border-radius: 40px;
+    background-color: #8d8d8dd7;
+    position: relative;
+    left: 670px;
+
+
+
+}
+
+#preco {
+
+    position: relative;
+    top: -575px;
+    left: 40px;
+    height: 35px;
+    width: 180;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#mao {
+
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+    top: -100px;
+
+
+}
+
+#pote {
+
+
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -172px;
+    left: 219px;
+
+
+}
+
+#mesa {
+
+
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 220px;
+    top: 517px;
+
+}
+
+#select {
+
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 55px;
+    top: 450px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#btn-gorjeta {
+
+    position: absolute;
+    top: 570px;
+    left: 75px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+#letras {
+
+    width: 800px;
+    height: 200px;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: -800px;
+    left: 10px;
+
+
+
+
+}

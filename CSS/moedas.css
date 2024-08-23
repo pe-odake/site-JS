@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*Montserrat*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+    
+img {
+    height: 70px;
+    width: 70px;
+}
+
+body {
+    background-color: rgba(97, 97, 248, 0.575);
+    overflow: hidden;
+}
+
+#caixaEle {
+    height: 720px;
+    width: 405px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.title {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.conversor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    bottom: 610px;
+}
+
+#valor {
+    height: 19px;
+    width: 220px;
+    background-color: fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#select {
+    height: 23px;
+    width: 300px;
+    background-color: fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn-moeda {
+    height: 23px;
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-moeda:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2);
+}

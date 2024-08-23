@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'arvo';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C9FDFF;
+}
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.aros{
+    display: flex;
+    justify-content: space-around;
+}
+.aro1{
+    background-color: rgb(150, 150, 150);
+    height: 65px;
+    width: 30px;
+    border-radius: 12px;
+    position: relative;
+    top: 28px;
+}
+.aro2{
+    background-color: rgb(150, 150, 150);
+    height: 65px;
+    width: 30px;
+    border-radius: 12px;
+    position: relative;
+    top: 28px;
+}
+
+.cima{
+    height: 90px;
+    width: 480px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}   
+.meio{
+    height: 350px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 0 0 20px 20px;
+}
+#ano{
+    height: 50px;
+    width: 380px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#resultado{
+    padding: 30px 0 60px 0px;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-bissexto{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+}
+#btn-bissexto:hover{
+    transition: ease-in;
+    transform: scale(1.1);
+}
+#iconVoltar{
+    height: 70px;
+    width: 70px;
+}
