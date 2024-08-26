@@ -11,6 +11,9 @@ function jogoAdivinha() {
     alert("VOCÊ ERROU, TENTE NOVAMENTE");
   }
 }
+
+
+
 // ano bissexto
 
 function anoBissexto() {
@@ -23,7 +26,6 @@ function anoBissexto() {
     resultado.textContent = ("O ano não é bissexto");
   }
 }
-
 // media escolar
 
 function Media() {
@@ -281,7 +283,7 @@ function ConverterMoeda() {
   switch (seletor) {
     case "USD":
       var convertido = valor / 5;
-      resultado.textContent = ('A conversão fica ' + convertido.toFixed(2) + ' dolares');
+      resultado.textContent = ('A conversão fica ' + convertido.toFixed(2) + ' Dólares');
       break;
     case "EUR":
       var convertido = valor / 5.5;
@@ -318,28 +320,51 @@ function Desafio(){
 
 };
 
-/* to tentando fazer sozinho*/
- 
+//Tabuada---------------------------------------------------------------------------
 
+let numero = document.getElementById("numero").value;
+let resultado = document.getElementById("resultado");
+let contador = 1;
 
-//eu também
-const certo = Math.floor(Math.random() * 101)
-
-function ad(){
-  let numero =document.getElementById("numero").value;
-
-do{
-  if(certo == numero){
-    texto.textContent = 'Parabéns! Você acertou!'
-    }
-    
-  else if(certo < numero){
-    texto.textContent = 'O número é menor! Tente novamente!'
-  }
+function tabuada(){
   
-  else{
-    texto.textContent = 'O número é maior! Tente novamente!'
+  while (contador <= 10) {
+
+    resultado = numero * contador;
+    contador++;
+
   }
-  
-} while(numero !== adivinha);
 }
+
+
+
+
+
+
+
+//Desafio de media davi---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Palindromo---------------------------------------------------------------------------

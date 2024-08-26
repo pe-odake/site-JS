@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tudo{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(56, 225, 255);
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+#btn-tabuada{
+    
+}
