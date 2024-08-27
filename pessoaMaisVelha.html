@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/pessoaMaisVelha.css">
     <title>Document</title>
 </head>
 <body style="background-color: rgb(150, 150, 248);">
-    
+  <div class="fundo">
+    <button onclick="alert()" id="btn">Iniciar</button>
+    <p id="resultado"></p>
+  </div>
 </body>
 </html>
 <script>
+  <!-- Sweetalert2 testar depois -->
+function alert(){
     let dados = [];
+    let resultado = document.getElementById("resultado");
 for (let a = 0; a < 5; a++) {
   let nome = prompt(`Digite o nome da pessoa ${a + 1}:`);
   let idade = parseInt(prompt(`Digite a idade da pessoa ${a + 1}:`));
@@ -22,7 +29,7 @@ for (let i = 1; i < dados.length; i++) {
   if (dados[i].idade > pessoaVelha.idade) {
     pessoaVelha = dados[i];}
 }
-alert(pessoaVelha.nome +" é a pessoa mais velha porque tem "+ pessoaVelha.idade +" anos");
+resultado.textContent = (pessoaVelha.nome +" é a pessoa mais velha porque tem "+ pessoaVelha.idade +" anos");
 console.log(pessoaVelha);
-
+}
 </script>

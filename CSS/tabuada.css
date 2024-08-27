@@ -8,16 +8,12 @@ body{
     align-items: center;
 }
 .tudo{
-    height: 300px;
-    width: 450px;
-    background-color: rgb(56, 225, 255);
-    margin-top: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-top: 150px;
+    height: 200px;
+    width: 250px;
+    background-color: antiquewhite;
     flex-direction: column;
-
-}
-#btn-tabuada{
-    
 }

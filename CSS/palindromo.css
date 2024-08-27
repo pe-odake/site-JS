@@ -5,21 +5,25 @@
 
 img{
    position: absolute;
-   margin-left: -190px;
-   text-shadow: 10px 5px 5px black;;
+   width: 60rem;
+   margin-top: 200px;
+   height: 40rem;
 }
 
 input{ 
     position: absolute;
-    width: 7rem;
-    height: 3.5rem;
-    border-radius: 10px;
-    background-color: beige;
+    width:11.5rem;
+    height: 3rem;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #548053;
+    background-color: rgb(255, 255, 255);
+    margin-left: 24px;
+    margin-bottom: 186px;
     font-size: 1rem;
-    color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
-    filter: drop-shadow(0 2rem 10rem rgb(255, 255, 255));
+   ;
 }
 #iconVoltar{
     position: absolute;
@@ -87,8 +91,9 @@ button:active {
 button{
     position: relative;
     font-family: system-ui,sans-serif;
+    margin-top: 660px;
+    margin-right: 250px;
     font-weight: bold;
-    margin-left: 250px;
     font-size: 1rem;
     cursor: pointer;
     padding: 0.6em .9em;

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu';
+    display: flexbox;
+} 
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:15%;
+}
+#btn{
+    padding-inline: 20%;
+    padding-block: 5%;
+    border-radius: 2vw;
+    font-size: 5vw;
+}
+#resultado{
+    margin-top: 6%;
+    font-size: 2vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+}

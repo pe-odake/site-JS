@@ -322,20 +322,28 @@ function Desafio(){
 
 //Tabuada---------------------------------------------------------------------------
 
-let numero = document.getElementById("numero").value;
-let resultado = document.getElementById("resultado");
-let contador = 1;
+// function tabuada() {
 
-function tabuada(){
-  
-  while (contador <= 10) {
+//   let numero = document.getElementById("numero").value;
+//   let i = 1;
 
-    resultado = numero * contador;
-    contador++;
+//   let resultado = document.getElementById("resultado"+i).value;
 
-  }
-}
+//   while ( i<=10){
 
+//     const conta = numero * i ;
+//     let resultado = document.createElement('p');
+//     resultado.textContent = 'numero + "x" + i + "=" +conta';
+
+//      = `${numero} x ${i} = ${conta}`;
+//     document.body.appendChild(p);
+//     i++;
+
+//   }
+
+// }
+//resultado.textContent = (conta)
+// "<p>" numero + "x" + i + "=" +conta "</p>" "<br>"
 
 
 
@@ -359,6 +367,31 @@ function tabuada(){
 
 
 
+ 
+  function calcular() {
+    var nu1 = parseInt(document.getElementById("foco1").value);
+    var nu2 = parseInt(document.getElementById("foco2").value);
+    var nu3 = parseInt(document.getElementById("foco3").value);
+    var nu4 = parseInt(document.getElementById("foco4").value);
+    var nu5 = parseInt(document.getElementById("foco5").value);
+    var nu6 = parseInt(document.getElementById("foco6").value);
+    var nu7 = parseInt(document.getElementById("foco7").value);
+    var nu8 = parseInt(document.getElementById("foco8").value);
+    var nu9 = parseInt(document.getElementById("foco9").value);
+    var nu10 = parseInt(document.getElementById("foco10").value);
+
+  
+    var resultado = (nu1 + nu2 + nu3 + nu4 + nu5 + nu6 + nu7 + nu8 + nu9 + n10) / 10;
+  
+   alert('sua média é: ' + resultado);
+   
+
+  }
+
+
+
+
+
 
 
 
@@ -368,3 +401,17 @@ function tabuada(){
 
 
 //Palindromo---------------------------------------------------------------------------
+function palin() {
+  let palavra = document.getElementById("letra").value;
+  var contrario = "";
+  for (var i = palavra.length - 1; i >= 0; i--) {
+      contrario += palavra[i];
+  }
+  if(contrario == palavra){
+    resposta.textContent = ("É um palíndomo" );
+  }
+  else{
+    resposta.textContent = ("Não é um palíndomo");
+  }
+}
+
