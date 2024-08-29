@@ -1,19 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'arvo';
 }
 body{
+    background-color: rgb(159, 198, 241);
+}
+.tudo2{
+    display: flex;
+    justify-content: center;
+}
+.tudo{
+    height: 400px;
+    width: 500px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+#resultado{
+    background-color: #FFFFFF;
+    list-style-type: none;
+    border: black solid 1px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.btns{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tudo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    height: 200px;
-    width: 250px;
-    background-color: antiquewhite;
-    flex-direction: column;
+#btn-tabuada{
+    height: 32.7px;
+    width: 55px;
+    margin-left: 5px;
+    border-radius: 7px;
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+}
+#btn-tabuada:hover{
+    background-color: blue;
+    color: white;
+}
+#numero{
+    height: 30px;
+    width: 105px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 10px;
+}
+#iconVoltar{
+    height: 70px;
+    width: 70px;
 }

@@ -9,39 +9,37 @@
 </head>
 
 <header>
-    
+
 </header>
 
 <body>
 
-   <button onclick="calcular()" id="btn-mediaArit">Enviar</button>
-   
+<h1 id="texto">calculadora de média</h1>
 
-    <div class="foco">
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco1"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco2"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco3"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco4"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco5"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco6"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco7"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco7"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco8"/> +
-        <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="foco9"/> +
-        <input type="number" maxlength="1"id="foco10">
+    <div class="caixa">
+
+
+        <div class="foco">
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota1" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota2" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota3" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota4" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota5" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota6" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota7" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota8" /> +
+            <input type="number" maxlength="1" oninput="this.nextElementSibling?.focus()" id="nota9" /> +
+            <input type="number" maxlength="1" id="nota10">
+        </div>
+
+        <button onclick="calculadora()" id="btn-mediaArit">Enviar</button>
+
+        <div class="quadrado"></div>
+
+        
+
     </div>
-
-    
-  <div class="resultado"></div>
-
 </body>
+
 </html>
-<script src="JS/javascript.js">
-    <!-- let controle= 0;
-    for(i = 0;i <= 10;i++){
-       let num = parseInt(prompt("Digite um numero"));
-       controle += num;
-    }
-    let resultado = controle/10;
-    alert(resultado) -->
-</script>
+<script src="JS/javascript.js"></script>

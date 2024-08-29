@@ -322,31 +322,31 @@ function Desafio(){
 
 //Tabuada---------------------------------------------------------------------------
 
-// function tabuada() {
-
-//   let numero = document.getElementById("numero").value;
-//   let i = 1;
-
-//   let resultado = document.getElementById("resultado"+i).value;
-
-//   while ( i<=10){
-
-//     const conta = numero * i ;
-//     let resultado = document.createElement('p');
-//     resultado.textContent = 'numero + "x" + i + "=" +conta';
-
-//      = `${numero} x ${i} = ${conta}`;
-//     document.body.appendChild(p);
-//     i++;
-
-//   }
-
-// }
-//resultado.textContent = (conta)
-// "<p>" numero + "x" + i + "=" +conta "</p>" "<br>"
 
 
+ function tabuada() {
 
+  //let tabua = document.getElementById("tabua").value;
+  let numero = document.getElementById("numero").value;
+  let ul = document.querySelector('#resultado');
+
+  ul.innerText = ""
+
+  let i = 1;
+  while ( i<=10){
+
+    const conta = numero * i ;
+    let li = document.createElement('li')
+    console.log(conta);
+    li.innerText = `${numero} x ${i} = ${conta}`;
+    ul.appendChild(li);
+    i++;
+
+   }
+
+   //tabua.textContent = ('Tabuada do ' + numero)
+
+ }
 
 
 
@@ -368,22 +368,22 @@ function Desafio(){
 
 
  
-  function calcular() {
-    var nu1 = parseInt(document.getElementById("foco1").value);
-    var nu2 = parseInt(document.getElementById("foco2").value);
-    var nu3 = parseInt(document.getElementById("foco3").value);
-    var nu4 = parseInt(document.getElementById("foco4").value);
-    var nu5 = parseInt(document.getElementById("foco5").value);
-    var nu6 = parseInt(document.getElementById("foco6").value);
-    var nu7 = parseInt(document.getElementById("foco7").value);
-    var nu8 = parseInt(document.getElementById("foco8").value);
-    var nu9 = parseInt(document.getElementById("foco9").value);
-    var nu10 = parseInt(document.getElementById("foco10").value);
+  function calculadora() {
+    let nu1 = parseInt(document.getElementById("nota1").value);
+    let nu2 = parseInt(document.getElementById("nota2").value);
+    let nu3 = parseInt(document.getElementById("nota3").value);
+    let nu4 = parseInt(document.getElementById("nota4").value);
+    let nu5 = parseInt(document.getElementById("nota5").value);
+    let nu6 = parseInt(document.getElementById("nota6").value);
+    let nu7 = parseInt(document.getElementById("nota7").value);
+    let nu8 = parseInt(document.getElementById("nota8").value);
+    let nu9 = parseInt(document.getElementById("nota9").value);
+    let nu10 = parseInt(document.getElementById("nota10").value);
 
   
-    var resultado = (nu1 + nu2 + nu3 + nu4 + nu5 + nu6 + nu7 + nu8 + nu9 + n10) / 10;
+    let resultado = (nu1 + nu2 + nu3 + nu4 + nu5 + nu6 + nu7 + nu8 + nu9 + nu10);
   
-   alert('sua média é: ' + resultado);
+   alert("o seu resultado é: " + resultado);
    
 
   }
@@ -408,10 +408,26 @@ function palin() {
       contrario += palavra[i];
   }
   if(contrario == palavra){
-    resposta.textContent = ("É um palíndomo" );
+    resposta.textContent = ("É um palíndomo");
   }
   else{
     resposta.textContent = ("Não é um palíndomo");
   }
 }
 
+//Menor numero de um Array
+
+// let num1 = prompt("digite um número")
+// let num2 = prompt("digite um número")
+// let num3 = prompt("digite um número")
+// let num4 = prompt("digite um número")
+
+// let numeros1 = [num1 , num2, num3, num4]
+// console.log(numeros1)
+
+// function menorNum(numeros){
+
+//   let menor = Math.min(...numeros)
+//   console.log(menor)
+
+//}

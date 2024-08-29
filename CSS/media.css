@@ -1,7 +1,118 @@
-#foco{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu';
+}
 
-width: 20px;
-height: 20px;
+body {
 
+    background: linear-gradient(45deg, #17153B, #2E236C, #a9a4dd, #8300c5);
+    background-size: 400% 400%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+
+    animation: colors 15s ease;
+}
+
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+
+
+
+#nota1,
+#nota2,
+#nota3,
+#nota4,
+#nota5,
+#nota6,
+#nota7,
+#nota8,
+#nota9,
+#nota10 {
+
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    z-index: 9;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.caixa {
+
+
+    width: 800px;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 75;
+    left: -100px;
+}
+
+
+#btn-mediaArit {
+
+    position: relative;
+    top: 100px;
+    left: 140px;
+    z-index: 3;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+
+
+}
+
+.quadrado {
+
+    width: 700px;
+    height: 50px;
+    background-color: antiquewhite;
+    z-index: 1;
+    position: relative;
+    top: 00px;
+    left: -260px;
+    border-radius: 50px;
+
+}
+
+.foco {
+
+    z-index: 900;
+    position: absolute;
+    left: 740px;
+
+
+}
+
+#texto {
+
+    
+    position: relative;
+    top: 450px;
+    left: 400px;
+    color: white;
+    font-size: 50px;
 
 }
